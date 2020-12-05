@@ -19,7 +19,7 @@ describe('flat', () => {
         expect(actual).toEqual([1,2])
     })
     
-    it('Receive two arrays and return a single array merged', () => {
+    it('Receive n arrays and return a single array merged', () => {
         //GIVEN
         const given = [[1,2],[3,4],[5,6],[-1,-2,-3]]
         //WHEN
