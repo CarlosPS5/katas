@@ -1,5 +1,6 @@
-export function fruitCounter(fruits: string[]): Record<string,number> {
-    let count: Record<string,number> = {}
+type Basket = Record<string,number>
+export function fruitCounter(fruits: string[]): Basket {
+    let count: Basket = {}
     if(fruits.length <= 0) {
         return count
     }
